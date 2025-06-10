@@ -1,0 +1,14 @@
+# Ignoruj WSZYSTKIE node_modules w całym repo
+**/node_modules/
+
+# Ignoruj katalogi build/dist niezależnie gdzie są
+**/build/
+**/dist/
+
+# Ignoruj logi
+*.log
+
+# Jeśli używasz Reacta/Nexta/CRA – też przydatne
+frontend/.next/
+frontend/.vite/
+frontend/out/
